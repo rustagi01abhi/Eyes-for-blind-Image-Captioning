@@ -11,7 +11,7 @@ Required Libraries:
   
 Steps :
   1. Place the project into the current directory of jupyter notebook.
-  2. Open Testing_InceptionV3.pynb
+  2. Open Testing_InceptionV3.ipynb
   3. Goto In[4] and add the address to the image.
   4. Start executing line by line.
   5. After executing In[7], Out[7] is generated, these are the top five prediction of objects in the image.
@@ -19,7 +19,7 @@ Steps :
   7. Executing In[9], resulting image that was generated previously id displayed.
   
   
-ImageCaptioning.pynb is an RNN to produce caption for image. This file is not in running condition.
+ImageCaptioning.ipynb is an RNN to produce caption for image. This file is not in running condition. This sequential neural network uses flickr8k dataset for training.
 Which require following Libraries :
   1. Keras 1.2.2
   2. Tensorflow 0.12.1
